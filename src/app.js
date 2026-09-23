@@ -7,7 +7,7 @@ const app = express();
 const PORT = 3000; // You can change the port if needed
 // Establishing a connection with the database
 const connection = mysql.createConnection({
-  host: '52.23.224.218',
+  host: '172.31.29.132',
   user: 'root',
   password: 'Password@1234',
   database: 'sadhixdb'
